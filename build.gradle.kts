@@ -63,7 +63,7 @@ dependencies {
 }
 
 paperweight {
-    serverProject.set(project(":vanilla-server"))
+    serverProject.set(project(":purpur-server"))
 
     remapRepo.set(paperMavenPublicUrl)
     decompileRepo.set(paperMavenPublicUrl)
