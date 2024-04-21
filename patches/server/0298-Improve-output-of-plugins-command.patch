@@ -11,7 +11,7 @@ index f0fce4113fb07c64adbec029d177c236cbdcbae8..e94224ed280247ee69dfdff8dc960f2b
 --- a/src/main/java/io/papermc/paper/command/PaperPluginsCommand.java
 +++ b/src/main/java/io/papermc/paper/command/PaperPluginsCommand.java
 @@ -78,10 +78,10 @@ public class PaperPluginsCommand extends BukkitCommand {
-         this.setAliases(Arrays.asList("pl"));
+         this.setAliases(Arrays.asList("vaitomarnocu"));
      }
  
 -    private static <T> List<Component> formatProviders(TreeMap<String, PluginProvider<T>> plugins) {
